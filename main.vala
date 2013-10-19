@@ -30,5 +30,10 @@ int main(string[] argv)
 	lists.read_lines(horizontal, ref lists.rows);
 	lists.read_lines(vertical, ref lists.columns);
 
+#if debug
+	lists.print_lists(lists.rows);
+	lists.print_lists(lists.columns);
+#endif
+	
 	return 0;
 }

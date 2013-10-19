@@ -19,5 +19,15 @@ class lists
 		rows = new List<string>();
 		columns = new List<string>();
 	}
+
+#if debug
+	public static void print_lists(List<string> list)
+	{
+		list.foreach((entry) =>
+		{
+			stdout.printf("%s\n", entry);
+		});
+	}
+#endif
 	
 }
