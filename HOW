@@ -1,6 +1,7 @@
-get two lists of words, one for horizontal, one for vertical.
 
-draw one hoizontal line and then one vertical line trying to match a single letter where they will cross.
+draw one horizontal line and then one vertical line trying to match a single letter where they will cross.
+     	 	    	 do this with a two-dimensional array? how to set its size?
+
 repeat until complete.
 
-print output as either plaintext or a text file.
+print output as either plain-text or a text file.
